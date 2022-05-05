@@ -1,0 +1,39 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(1.jpg);  */
+    background-size: cover; 
+    color: navy;
+
+     /* background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+  } */
+/* .title h1{
+    text-align: center; */
+
+}
+.tile{
+ display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
